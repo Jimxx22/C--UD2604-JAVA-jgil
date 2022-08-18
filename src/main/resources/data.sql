@@ -39,6 +39,6 @@ create table reservas(
 );
 
 insert into facultades(nombre)values ('facultad1'),('facultad2'),('facultad3'),('facultad4'),('facultad5');
-insert into investigadores(dni,nom_apels,codigo_facultad)values ('12345678','investigador1',1),('23456781','investigador2',1),('34567812','investigador3',2),('45678123','investigador4',3),('56781234','investigador5',5);
-insert into equipos(num_serie,nombre,codigo_facultad)values ('EQ01','equipo1',1),('EQ02','equipo2',2),('EQ03','equipo3',3),('EQ04','equipo4',3),('EQ05','equipo5',5);
+insert into investigadores(dni,nom_apels,codigo_facultad)values ('12345678','investigador1',1),('23456781','investigador2',1),('34567812','investigador3',11),('45678123','investigador4',21),('56781234','investigador5',41);
+insert into equipos(num_serie,nombre,codigo_facultad)values ('EQ01','equipo1',1),('EQ02','equipo2',11),('EQ03','equipo3',21),('EQ04','equipo4',21),('EQ05','equipo5',41);
 insert into reservas(codigo_investigadores,codigo_equipos)values ('12345678','EQ01'),('45678123','EQ03'),('23456781','EQ04'),('34567812','EQ05'),('56781234','EQ02');
